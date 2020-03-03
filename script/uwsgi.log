@@ -1,0 +1,764 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 25 21:53:00 2020] ***
+compiled with version: 7.4.0 on 03 September 2019 10:57:39
+os: Linux-4.15.0-52-generic #56-Ubuntu SMP Tue Jun 4 22:49:08 UTC 2019
+nodename: iZm5ed3q69eh2zsije33m9Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/www/wmc_ex1
+writing pidfile to /home/www/wmc_ex1/wmc_ex1/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/www/wmc_ex1/
+your processes number limit is 15605
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 0.0.0.0:8001 fd 3
+uwsgi socket 0 bound to UNIX address /home/www/wmc_ex1/wmc_ex1.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.17 (default, Nov  7 2019, 10:07:09)  [GCC 7.4.0]
+Python main interpreter initialized at 0x55c2607e2150
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+ImportError: No module named wmc_ex1.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "/home/www/wmc_ex1/wmc_ex1/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ImportError: No module named django.core.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25491)
+spawned uWSGI worker 1 (pid: 25492, cores: 1)
+spawned uWSGI worker 2 (pid: 25493, cores: 1)
+spawned uWSGI worker 3 (pid: 25494, cores: 1)
+spawned uWSGI worker 4 (pid: 25495, cores: 1)
+spawned uWSGI worker 5 (pid: 25496, cores: 1)
+spawned uWSGI http 1 (pid: 25497)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 25 21:57:37 2020] ***
+compiled with version: 7.4.0 on 25 February 2020 13:47:03
+os: Linux-4.15.0-52-generic #56-Ubuntu SMP Tue Jun 4 22:49:08 UTC 2019
+nodename: iZm5ed3q69eh2zsije33m9Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/www/wmc_ex1
+writing pidfile to /home/www/wmc_ex1/wmc_ex1/uwsgi.pid
+detected binary path: /home/www/wmc_ex1/.venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/www/wmc_ex1/
+your processes number limit is 15605
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+probably another instance of uWSGI is running on the same address (0.0.0.0:8001).
+bind(): Address already in use [core/socket.c line 769]
+Tue Feb 25 21:58:09 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Feb 25 21:58:09 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Feb 25 21:58:09 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Feb 25 21:58:09 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Feb 25 21:58:09 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 25 21:58:13 2020] ***
+compiled with version: 7.4.0 on 25 February 2020 13:47:03
+os: Linux-4.15.0-52-generic #56-Ubuntu SMP Tue Jun 4 22:49:08 UTC 2019
+nodename: iZm5ed3q69eh2zsije33m9Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/www/wmc_ex1
+writing pidfile to /home/www/wmc_ex1/wmc_ex1/uwsgi.pid
+detected binary path: /home/www/wmc_ex1/.venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/www/wmc_ex1/
+your processes number limit is 15605
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 0.0.0.0:8001 fd 3
+uwsgi socket 0 bound to UNIX address /home/www/wmc_ex1/wmc_ex1.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x55e1b2b13760
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'wmc_ex1.wmc_ex1'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55e1b2b13760 pid: 25678 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25678)
+spawned uWSGI worker 1 (pid: 25681, cores: 1)
+spawned uWSGI worker 2 (pid: 25682, cores: 1)
+spawned uWSGI worker 3 (pid: 25683, cores: 1)
+spawned uWSGI worker 4 (pid: 25684, cores: 1)
+spawned uWSGI worker 5 (pid: 25685, cores: 1)
+spawned uWSGI http 1 (pid: 25686)
+Tue Feb 25 13:59:28 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Feb 25 13:59:28 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Feb 25 13:59:28 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Feb 25 13:59:28 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Feb 25 13:59:28 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 25 21:59:37 2020] ***
+compiled with version: 7.4.0 on 25 February 2020 13:47:03
+os: Linux-4.15.0-52-generic #56-Ubuntu SMP Tue Jun 4 22:49:08 UTC 2019
+nodename: iZm5ed3q69eh2zsije33m9Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/www/wmc_ex1
+writing pidfile to /home/www/wmc_ex1/wmc_ex1/uwsgi.pid
+detected binary path: /home/www/wmc_ex1/.venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/www/wmc_ex1/
+your processes number limit is 15605
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...554 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 0.0.0.0:8001 fd 3
+uwsgi socket 0 bound to UNIX address /home/www/wmc_ex1/wmc_ex1.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x55e9a1d44a70
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+added /home/www/wmc_ex1/.venv/lib/python3.6/site-packages/ to pythonpath.
+ModuleNotFoundError: No module named 'wmc_ex1.wmc_ex1'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55e9a1d44a70 pid: 25848 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25848)
+spawned uWSGI worker 1 (pid: 25850, cores: 1)
+spawned uWSGI worker 2 (pid: 25851, cores: 1)
+spawned uWSGI worker 3 (pid: 25852, cores: 1)
+spawned uWSGI worker 4 (pid: 25853, cores: 1)
+spawned uWSGI worker 5 (pid: 25854, cores: 1)
+spawned uWSGI http 1 (pid: 25855)
+[pid: 25850|app: 0|req: 1/1] 115.198.184.134 () {40 vars in 827 bytes} [Tue Feb 25 13:59:54 2020] GET / => generated 7228 bytes in 46 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 1/2] 115.198.184.134 () {40 vars in 827 bytes} [Tue Feb 25 13:59:55 2020] GET / => generated 7228 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25852|app: 0|req: 1/3] 115.198.184.134 () {40 vars in 827 bytes} [Tue Feb 25 13:59:55 2020] GET / => generated 7228 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 1/4] 115.198.184.134 () {40 vars in 827 bytes} [Tue Feb 25 13:59:56 2020] GET / => generated 7228 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 1/5] 47.101.33.93 () {34 vars in 434 bytes} [Tue Feb 25 14:05:23 2020] GET / => generated 7228 bytes in 51 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 2/6] 115.198.184.134 () {40 vars in 820 bytes} [Tue Feb 25 14:06:43 2020] GET / => generated 7228 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 2/7] 115.198.184.134 () {42 vars in 779 bytes} [Tue Feb 25 14:17:52 2020] GET / => generated 7228 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 25852|app: 0|req: 2/8] 115.198.184.134 () {46 vars in 829 bytes} [Tue Feb 25 14:17:52 2020] GET /favicon.ico => generated 2542 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 2/9] 61.151.206.25 () {36 vars in 536 bytes} [Tue Feb 25 14:17:58 2020] GET / => generated 7228 bytes in 6 msecs (HTTP/1.0 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 2/10] 223.72.41.217 () {40 vars in 706 bytes} [Tue Feb 25 14:18:26 2020] GET / => generated 7228 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 3/11] 115.198.184.134 () {40 vars in 707 bytes} [Tue Feb 25 14:18:26 2020] GET / => generated 7228 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 3/12] 115.198.184.134 () {44 vars in 856 bytes} [Tue Feb 25 14:18:46 2020] GET /complete/21? => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 118 bytes (1 switches on core 0)
+[pid: 25852|app: 0|req: 3/13] 115.198.184.134 () {44 vars in 857 bytes} [Tue Feb 25 14:18:46 2020] GET /complete/21/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 3/14] 115.198.184.134 () {44 vars in 833 bytes} [Tue Feb 25 14:18:46 2020] GET / => generated 7226 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 3/15] 115.198.184.134 () {44 vars in 852 bytes} [Tue Feb 25 14:18:51 2020] GET /delete/20? => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 4/16] 115.198.184.134 () {44 vars in 853 bytes} [Tue Feb 25 14:18:51 2020] GET /delete/20/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 4/17] 115.198.184.134 () {44 vars in 833 bytes} [Tue Feb 25 14:18:51 2020] GET / => generated 5008 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25852|app: 0|req: 4/18] 61.151.178.174 () {36 vars in 591 bytes} [Tue Feb 25 14:18:59 2020] GET / => generated 5008 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 4/19] 115.198.184.134 () {50 vars in 993 bytes} [Tue Feb 25 14:19:02 2020] POST /add/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 4/20] 115.198.184.134 () {46 vars in 868 bytes} [Tue Feb 25 14:19:02 2020] GET / => generated 7242 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 5/21] 223.72.41.217 () {42 vars in 795 bytes} [Tue Feb 25 14:19:07 2020] GET / => generated 7242 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 5/22] 101.91.62.89 () {36 vars in 611 bytes} [Tue Feb 25 14:19:46 2020] GET /complete/21 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 118 bytes (1 switches on core 0)
+[pid: 25852|app: 0|req: 5/23] 61.151.178.197 () {36 vars in 607 bytes} [Tue Feb 25 14:19:53 2020] GET /delete/20? => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 5/24] 115.198.184.134 () {42 vars in 796 bytes} [Tue Feb 25 14:19:56 2020] GET / => generated 7242 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 5/25] 115.198.184.134 () {42 vars in 796 bytes} [Tue Feb 25 14:19:59 2020] GET / => generated 7242 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 6/26] 115.198.184.134 () {40 vars in 827 bytes} [Tue Feb 25 14:21:04 2020] GET / => generated 7242 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 6/27] 115.198.184.134 () {40 vars in 827 bytes} [Tue Feb 25 14:21:05 2020] GET / => generated 7242 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25852|app: 0|req: 6/28] 115.198.184.134 () {48 vars in 990 bytes} [Tue Feb 25 14:21:11 2020] POST /add/ => generated 0 bytes in 11 msecs (HTTP/1.1 302) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 6/29] 115.198.184.134 () {42 vars in 870 bytes} [Tue Feb 25 14:21:11 2020] GET / => generated 9484 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 6/30] 115.198.184.134 () {40 vars in 862 bytes} [Tue Feb 25 14:21:14 2020] GET /complete/23? => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 118 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 7/31] 115.198.184.134 () {40 vars in 863 bytes} [Tue Feb 25 14:21:14 2020] GET /complete/23/ => generated 0 bytes in 10 msecs (HTTP/1.1 302) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 7/32] 115.198.184.134 () {40 vars in 839 bytes} [Tue Feb 25 14:21:14 2020] GET / => generated 9482 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 25852|app: 0|req: 7/33] 115.198.184.134 () {48 vars in 990 bytes} [Tue Feb 25 14:21:29 2020] POST /add/ => generated 0 bytes in 9 msecs (HTTP/1.1 302) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 7/34] 115.198.184.134 () {42 vars in 870 bytes} [Tue Feb 25 14:21:29 2020] GET / => generated 11724 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 7/35] 47.92.115.203 () {34 vars in 455 bytes} [Tue Feb 25 14:47:21 2020] GET / => generated 11724 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 8/36] 47.101.53.84 () {30 vars in 417 bytes} [Tue Feb 25 14:53:29 2020] GET / => generated 11724 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 8/37] 47.101.61.104 () {34 vars in 459 bytes} [Tue Feb 25 15:13:10 2020] GET / => generated 11724 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25852|app: 0|req: 8/38] 47.92.120.136 () {34 vars in 439 bytes} [Tue Feb 25 20:05:12 2020] GET / => generated 11724 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 8/39] 47.92.2.67 () {34 vars in 432 bytes} [Tue Feb 25 20:21:46 2020] GET / => generated 11724 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25854|app: 0|req: 8/40] 47.97.10.19 () {22 vars in 232 bytes} [Wed Feb 26 01:50:49 2020] GET / => generated 53856 bytes in 118 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25850|app: 0|req: 9/41] 39.107.14.208 () {22 vars in 233 bytes} [Wed Feb 26 03:49:14 2020] GET / => generated 53857 bytes in 51 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /chs/js/lang_zh_cn.js
+[pid: 25851|app: 0|req: 9/42] 61.157.96.2 () {34 vars in 556 bytes} [Wed Feb 26 03:59:44 2020] HEAD /chs/js/lang_zh_cn.js => generated 2576 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25852|app: 0|req: 9/43] 120.55.13.109 () {22 vars in 234 bytes} [Thu Feb 27 01:43:25 2020] GET / => generated 53858 bytes in 110 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: iZm5ed3q69eh2zsije33m9Z client_addr: 120.55.13.109 client_port: 22730] hr_write(): Broken pipe [plugins/http/http.c line 565]
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25853|app: 0|req: 9/44] 47.97.10.19 () {22 vars in 232 bytes} [Thu Feb 27 04:08:00 2020] GET / => generated 53856 bytes in 63 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 9/45] 139.162.79.87 () {30 vars in 348 bytes} [Thu Feb 27 18:39:02 2020] GET / => generated 11724 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 10/46] 101.132.100.6 () {34 vars in 439 bytes} [Thu Feb 27 20:55:45 2020] GET / => generated 11724 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 10/47] 47.92.125.35 () {34 vars in 434 bytes} [Thu Feb 27 20:57:43 2020] GET / => generated 11724 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25852|app: 0|req: 10/48] 47.97.21.76 () {22 vars in 232 bytes} [Fri Feb 28 01:29:07 2020] GET / => generated 53856 bytes in 51 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25853|app: 0|req: 10/49] 47.100.64.86 () {22 vars in 233 bytes} [Fri Feb 28 04:10:13 2020] GET / => generated 53857 bytes in 32 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 10/50] 223.71.167.163 () {30 vars in 415 bytes} [Fri Feb 28 04:47:28 2020] GET / => generated 11724 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 11/51] 101.251.72.129 () {32 vars in 458 bytes} [Fri Feb 28 06:41:50 2020] GET / => generated 11724 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 11/52] 112.80.136.102 () {44 vars in 738 bytes} [Fri Feb 28 08:13:55 2020] GET / => generated 11724 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25852|app: 0|req: 11/53] 83.97.20.34 () {22 vars in 232 bytes} [Fri Feb 28 12:12:59 2020] GET / => generated 53856 bytes in 37 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 11/54] 171.13.14.75 () {40 vars in 586 bytes} [Fri Feb 28 12:35:40 2020] GET / => generated 11724 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 11/55] 47.97.220.124 () {34 vars in 435 bytes} [Fri Feb 28 20:05:44 2020] GET / => generated 11724 bytes in 80 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 12/56] 101.132.188.111 () {34 vars in 441 bytes} [Fri Feb 28 20:07:45 2020] GET / => generated 11724 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25851|app: 0|req: 12/57] 47.100.64.9 () {22 vars in 232 bytes} [Sat Feb 29 01:16:13 2020] GET / => generated 53856 bytes in 69 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25852|app: 0|req: 12/58] 47.93.180.168 () {22 vars in 234 bytes} [Sat Feb 29 03:17:32 2020] GET / => generated 53858 bytes in 63 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 12/59] 103.205.4.120 () {40 vars in 635 bytes} [Sat Feb 29 15:42:08 2020] GET / => generated 11724 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 12/60] 47.97.204.168 () {34 vars in 439 bytes} [Sat Feb 29 20:28:50 2020] GET / => generated 11724 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 13/61] 101.132.131.7 () {34 vars in 435 bytes} [Sat Feb 29 20:30:33 2020] GET / => generated 11724 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 13/62] 101.132.97.53 () {34 vars in 434 bytes} [Sat Feb 29 20:46:37 2020] GET / => generated 11724 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25852|app: 0|req: 13/63] 47.92.101.29 () {34 vars in 437 bytes} [Sat Feb 29 21:41:28 2020] GET / => generated 11724 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25853|app: 0|req: 13/64] 119.23.138.247 () {22 vars in 234 bytes} [Sun Mar  1 00:43:57 2020] GET / => generated 53857 bytes in 66 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 13/65] 139.162.79.87 () {30 vars in 348 bytes} [Sun Mar  1 02:45:18 2020] GET / => generated 11724 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 14/66] 47.116.21.255 () {34 vars in 604 bytes} [Sun Mar  1 05:23:22 2020] GET / => generated 11724 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+Not Found: /explicit_not_exist_path
+[pid: 25851|app: 0|req: 14/67] 47.116.21.255 () {36 vars in 739 bytes} [Sun Mar  1 05:23:22 2020] GET /explicit_not_exist_path => generated 2584 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /index.html
+[pid: 25852|app: 0|req: 14/68] 47.116.21.255 () {36 vars in 713 bytes} [Sun Mar  1 05:23:22 2020] GET /index.html => generated 2545 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /index.php
+[pid: 25853|app: 0|req: 14/69] 47.116.21.255 () {36 vars in 711 bytes} [Sun Mar  1 05:23:22 2020] GET /index.php => generated 2542 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /index.jsp
+[pid: 25854|app: 0|req: 14/70] 47.116.21.255 () {36 vars in 711 bytes} [Sun Mar  1 05:23:22 2020] GET /index.jsp => generated 2542 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 15/71] 47.116.21.255 () {36 vars in 705 bytes} [Sun Mar  1 05:23:22 2020] GET /admin/ => generated 0 bytes in 53 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 15/72] 47.116.21.255 () {36 vars in 742 bytes} [Sun Mar  1 05:23:22 2020] GET /admin/login/?next=/admin/ => generated 1819 bytes in 78 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 25852|app: 0|req: 15/73] 47.116.21.255 () {36 vars in 715 bytes} [Sun Mar  1 05:23:23 2020] GET /favicon.ico => generated 2548 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /robots.txt
+[pid: 25853|app: 0|req: 15/74] 47.116.21.255 () {36 vars in 713 bytes} [Sun Mar  1 05:23:23 2020] GET /robots.txt => generated 2545 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 25854|app: 0|req: 15/75] 47.116.21.255 () {36 vars in 743 bytes} [Sun Mar  1 05:23:23 2020] GET /static/admin/css/base.css => generated 2590 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[pid: 25850|app: 0|req: 16/76] 47.116.21.255 () {36 vars in 783 bytes} [Sun Mar  1 05:23:23 2020] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 2650 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/dashboard.css
+[pid: 25851|app: 0|req: 16/77] 47.116.21.255 () {36 vars in 753 bytes} [Sun Mar  1 05:23:23 2020] GET /static/admin/css/dashboard.css => generated 2605 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/img/icon-no.gif
+[pid: 25852|app: 0|req: 16/78] 47.116.21.255 () {36 vars in 749 bytes} [Sun Mar  1 05:23:23 2020] GET /static/admin/img/icon-no.gif => generated 2599 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/js/LICENSE-JQUERY.txt
+[pid: 25853|app: 0|req: 16/79] 47.116.21.255 () {36 vars in 761 bytes} [Sun Mar  1 05:23:23 2020] GET /static/admin/js/LICENSE-JQUERY.txt => generated 2617 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/fonts/Roboto-Light-webfont.woff
+[pid: 25854|app: 0|req: 16/80] 47.116.21.255 () {36 vars in 781 bytes} [Sun Mar  1 05:23:23 2020] GET /static/admin/fonts/Roboto-Light-webfont.woff => generated 2647 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 25850|app: 0|req: 17/81] 47.116.21.255 () {36 vars in 745 bytes} [Sun Mar  1 05:23:23 2020] GET /static/admin/css/fonts.css => generated 2593 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/img/icon-no.svg
+[pid: 25851|app: 0|req: 17/82] 47.116.21.255 () {36 vars in 749 bytes} [Sun Mar  1 05:23:23 2020] GET /static/admin/img/icon-no.svg => generated 2599 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /404.html
+[pid: 25852|app: 0|req: 17/83] 47.116.21.255 () {36 vars in 709 bytes} [Sun Mar  1 05:23:23 2020] GET /404.html => generated 2539 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /500.html
+[pid: 25853|app: 0|req: 17/84] 47.116.21.255 () {36 vars in 709 bytes} [Sun Mar  1 05:23:23 2020] GET /500.html => generated 2539 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /stylesheets/application.css
+[pid: 25854|app: 0|req: 17/85] 47.116.21.255 () {36 vars in 747 bytes} [Sun Mar  1 05:23:23 2020] GET /stylesheets/application.css => generated 2596 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /wcm/
+[pid: 25850|app: 0|req: 18/86] 47.116.21.255 () {36 vars in 701 bytes} [Sun Mar  1 05:23:23 2020] GET /wcm/ => generated 2527 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /phpMyAdmin/
+[pid: 25851|app: 0|req: 18/87] 47.116.21.255 () {36 vars in 715 bytes} [Sun Mar  1 05:23:23 2020] GET /phpMyAdmin/ => generated 2548 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /phpmyadmin/
+[pid: 25852|app: 0|req: 18/88] 47.116.21.255 () {36 vars in 715 bytes} [Sun Mar  1 05:23:23 2020] GET /phpmyadmin/ => generated 2548 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25853|app: 0|req: 18/89] 47.116.21.223 () {34 vars in 606 bytes} [Sun Mar  1 09:33:55 2020] GET / => generated 54797 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /explicit_not_exist_path
+[pid: 25854|app: 0|req: 18/90] 47.116.21.223 () {34 vars in 653 bytes} [Sun Mar  1 09:33:55 2020] GET /explicit_not_exist_path => generated 55074 bytes in 38 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /index.html
+[pid: 25850|app: 0|req: 19/91] 47.116.21.223 () {34 vars in 628 bytes} [Sun Mar  1 09:33:56 2020] GET /index.html => generated 54919 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /index.php
+[pid: 25851|app: 0|req: 19/92] 47.116.21.223 () {34 vars in 625 bytes} [Sun Mar  1 09:33:57 2020] GET /index.php => generated 54906 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /index.jsp
+[pid: 25852|app: 0|req: 19/93] 47.116.21.223 () {34 vars in 626 bytes} [Sun Mar  1 09:33:58 2020] GET /index.jsp => generated 54907 bytes in 57 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 25853|app: 0|req: 19/94] 47.116.21.223 () {34 vars in 620 bytes} [Sun Mar  1 09:34:00 2020] GET /admin/ => generated 54871 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 25854|app: 0|req: 19/95] 47.116.21.223 () {34 vars in 630 bytes} [Sun Mar  1 09:34:02 2020] GET /favicon.ico => generated 54931 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 25850|app: 0|req: 20/96] 47.116.21.223 () {34 vars in 628 bytes} [Sun Mar  1 09:34:03 2020] GET /robots.txt => generated 54919 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/base.css
+[pid: 25851|app: 0|req: 20/97] 47.116.21.223 () {34 vars in 658 bytes} [Sun Mar  1 09:34:05 2020] GET /static/admin/css/base.css => generated 55099 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/admin/RelatedObjectLookups.js
+[pid: 25852|app: 0|req: 20/98] 47.116.21.223 () {34 vars in 697 bytes} [Sun Mar  1 09:34:06 2020] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 55338 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/dashboard.css
+[pid: 25853|app: 0|req: 20/99] 47.116.21.223 () {34 vars in 668 bytes} [Sun Mar  1 09:34:07 2020] GET /static/admin/css/dashboard.css => generated 55159 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.gif
+[pid: 25854|app: 0|req: 20/100] 47.116.21.223 () {34 vars in 664 bytes} [Sun Mar  1 09:34:09 2020] GET /static/admin/img/icon-no.gif => generated 55135 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/LICENSE-JQUERY.txt
+[pid: 25850|app: 0|req: 21/101] 47.116.21.223 () {34 vars in 676 bytes} [Sun Mar  1 09:34:10 2020] GET /static/admin/js/LICENSE-JQUERY.txt => generated 55207 bytes in 59 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/fonts/Roboto-Light-webfont.woff
+[pid: 25851|app: 0|req: 21/102] 47.116.21.223 () {34 vars in 696 bytes} [Sun Mar  1 09:34:12 2020] GET /static/admin/fonts/Roboto-Light-webfont.woff => generated 55327 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/fonts.css
+[pid: 25852|app: 0|req: 21/103] 47.116.21.223 () {34 vars in 659 bytes} [Sun Mar  1 09:34:13 2020] GET /static/admin/css/fonts.css => generated 55110 bytes in 38 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.svg
+[pid: 25853|app: 0|req: 21/104] 47.116.21.223 () {34 vars in 664 bytes} [Sun Mar  1 09:34:15 2020] GET /static/admin/img/icon-no.svg => generated 55135 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /wcm/
+[pid: 25854|app: 0|req: 21/105] 47.116.21.223 () {34 vars in 616 bytes} [Sun Mar  1 09:34:17 2020] GET /wcm/ => generated 54847 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 25850|app: 0|req: 22/106] 47.116.21.223 () {34 vars in 630 bytes} [Sun Mar  1 09:34:18 2020] GET /phpMyAdmin/ => generated 54931 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.cn:8001'. You may need to add 'code.qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 25851|app: 0|req: 22/107] 47.116.21.223 () {34 vars in 630 bytes} [Sun Mar  1 09:34:19 2020] GET /phpmyadmin/ => generated 54931 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 25852|app: 0|req: 22/108] 111.30.33.149 () {40 vars in 703 bytes} [Sun Mar  1 09:44:26 2020] GET / => generated 11724 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 22/109] 111.30.33.149 () {40 vars in 707 bytes} [Sun Mar  1 09:44:26 2020] GET / => generated 11724 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25854|app: 0|req: 22/110] 47.116.20.188 () {34 vars in 604 bytes} [Sun Mar  1 11:59:28 2020] GET / => generated 54739 bytes in 41 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /explicit_not_exist_path
+[pid: 25850|app: 0|req: 23/111] 47.116.20.188 () {34 vars in 650 bytes} [Sun Mar  1 11:59:28 2020] GET /explicit_not_exist_path => generated 55015 bytes in 42 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /index.html
+[pid: 25851|app: 0|req: 23/112] 47.116.20.188 () {34 vars in 624 bytes} [Sun Mar  1 11:59:29 2020] GET /index.html => generated 54859 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /index.php
+[pid: 25852|app: 0|req: 23/113] 47.116.20.188 () {34 vars in 622 bytes} [Sun Mar  1 11:59:30 2020] GET /index.php => generated 54847 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /index.jsp
+[pid: 25853|app: 0|req: 23/114] 47.116.20.188 () {34 vars in 622 bytes} [Sun Mar  1 11:59:32 2020] GET /index.jsp => generated 54847 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 25854|app: 0|req: 23/115] 47.116.20.188 () {34 vars in 616 bytes} [Sun Mar  1 11:59:33 2020] GET /admin/ => generated 54811 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 25850|app: 0|req: 24/116] 47.116.20.188 () {34 vars in 626 bytes} [Sun Mar  1 11:59:35 2020] GET /favicon.ico => generated 54871 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 25851|app: 0|req: 24/117] 47.116.20.188 () {34 vars in 624 bytes} [Sun Mar  1 11:59:36 2020] GET /robots.txt => generated 54859 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/base.css
+[pid: 25852|app: 0|req: 24/118] 47.116.20.188 () {34 vars in 654 bytes} [Sun Mar  1 11:59:37 2020] GET /static/admin/css/base.css => generated 55039 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/admin/RelatedObjectLookups.js
+[pid: 25853|app: 0|req: 24/119] 47.116.20.188 () {34 vars in 694 bytes} [Sun Mar  1 11:59:38 2020] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 55279 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/dashboard.css
+[pid: 25854|app: 0|req: 24/120] 47.116.20.188 () {34 vars in 662 bytes} [Sun Mar  1 11:59:40 2020] GET /static/admin/css/dashboard.css => generated 55097 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.gif
+[pid: 25850|app: 0|req: 25/121] 47.116.20.188 () {34 vars in 659 bytes} [Sun Mar  1 11:59:41 2020] GET /static/admin/img/icon-no.gif => generated 55074 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/LICENSE-JQUERY.txt
+[pid: 25851|app: 0|req: 25/122] 47.116.20.188 () {34 vars in 672 bytes} [Sun Mar  1 11:59:42 2020] GET /static/admin/js/LICENSE-JQUERY.txt => generated 55147 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/fonts/Roboto-Light-webfont.woff
+[pid: 25852|app: 0|req: 25/123] 47.116.20.188 () {34 vars in 692 bytes} [Sun Mar  1 11:59:44 2020] GET /static/admin/fonts/Roboto-Light-webfont.woff => generated 55267 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/fonts.css
+[pid: 25853|app: 0|req: 25/124] 47.116.20.188 () {34 vars in 656 bytes} [Sun Mar  1 11:59:45 2020] GET /static/admin/css/fonts.css => generated 55051 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.svg
+[pid: 25854|app: 0|req: 25/125] 47.116.20.188 () {34 vars in 660 bytes} [Sun Mar  1 11:59:46 2020] GET /static/admin/img/icon-no.svg => generated 55075 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /wcm/
+[pid: 25850|app: 0|req: 26/126] 47.116.20.188 () {34 vars in 612 bytes} [Sun Mar  1 11:59:48 2020] GET /wcm/ => generated 54787 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 25851|app: 0|req: 26/127] 47.116.20.188 () {34 vars in 626 bytes} [Sun Mar  1 11:59:49 2020] GET /phpMyAdmin/ => generated 54871 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.com:8001'. You may need to add 'qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 25852|app: 0|req: 26/128] 47.116.20.188 () {34 vars in 626 bytes} [Sun Mar  1 11:59:50 2020] GET /phpmyadmin/ => generated 54871 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25853|app: 0|req: 26/129] 47.116.20.119 () {34 vars in 609 bytes} [Sun Mar  1 16:58:20 2020] GET / => generated 54814 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /explicit_not_exist_path
+[pid: 25854|app: 0|req: 26/130] 47.116.20.119 () {34 vars in 655 bytes} [Sun Mar  1 16:58:20 2020] GET /explicit_not_exist_path => generated 55090 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /index.html
+[pid: 25850|app: 0|req: 27/131] 47.116.20.119 () {34 vars in 629 bytes} [Sun Mar  1 16:58:21 2020] GET /index.html => generated 54934 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /index.php
+[pid: 25851|app: 0|req: 27/132] 47.116.20.119 () {34 vars in 627 bytes} [Sun Mar  1 16:58:22 2020] GET /index.php => generated 54922 bytes in 45 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /index.jsp
+[pid: 25852|app: 0|req: 27/133] 47.116.20.119 () {34 vars in 627 bytes} [Sun Mar  1 16:58:23 2020] GET /index.jsp => generated 54922 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 25853|app: 0|req: 27/134] 47.116.20.119 () {34 vars in 621 bytes} [Sun Mar  1 16:58:25 2020] GET /admin/ => generated 54886 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 25854|app: 0|req: 27/135] 47.116.20.119 () {34 vars in 631 bytes} [Sun Mar  1 16:58:26 2020] GET /favicon.ico => generated 54946 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 25850|app: 0|req: 28/136] 47.116.20.119 () {34 vars in 629 bytes} [Sun Mar  1 16:58:28 2020] GET /robots.txt => generated 54934 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/base.css
+[pid: 25851|app: 0|req: 28/137] 47.116.20.119 () {34 vars in 659 bytes} [Sun Mar  1 16:58:29 2020] GET /static/admin/css/base.css => generated 55114 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/admin/RelatedObjectLookups.js
+[pid: 25852|app: 0|req: 28/138] 47.116.20.119 () {34 vars in 699 bytes} [Sun Mar  1 16:58:30 2020] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 55354 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/dashboard.css
+[pid: 25853|app: 0|req: 28/139] 47.116.20.119 () {34 vars in 669 bytes} [Sun Mar  1 16:58:32 2020] GET /static/admin/css/dashboard.css => generated 55174 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.gif
+[pid: 25854|app: 0|req: 28/140] 47.116.20.119 () {34 vars in 665 bytes} [Sun Mar  1 16:58:33 2020] GET /static/admin/img/icon-no.gif => generated 55150 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/LICENSE-JQUERY.txt
+[pid: 25850|app: 0|req: 29/141] 47.116.20.119 () {34 vars in 677 bytes} [Sun Mar  1 16:58:34 2020] GET /static/admin/js/LICENSE-JQUERY.txt => generated 55222 bytes in 57 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/fonts/Roboto-Light-webfont.woff
+[pid: 25851|app: 0|req: 29/142] 47.116.20.119 () {34 vars in 696 bytes} [Sun Mar  1 16:58:36 2020] GET /static/admin/fonts/Roboto-Light-webfont.woff => generated 55341 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/fonts.css
+[pid: 25852|app: 0|req: 29/143] 47.116.20.119 () {34 vars in 661 bytes} [Sun Mar  1 16:58:40 2020] GET /static/admin/css/fonts.css => generated 55126 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.svg
+[pid: 25853|app: 0|req: 29/144] 47.116.20.119 () {34 vars in 665 bytes} [Sun Mar  1 16:58:43 2020] GET /static/admin/img/icon-no.svg => generated 55150 bytes in 45 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /wcm/
+[pid: 25854|app: 0|req: 29/145] 47.116.20.119 () {34 vars in 616 bytes} [Sun Mar  1 16:58:45 2020] GET /wcm/ => generated 54861 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 25850|app: 0|req: 30/146] 47.116.20.119 () {34 vars in 631 bytes} [Sun Mar  1 16:58:46 2020] GET /phpMyAdmin/ => generated 54946 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'code.qingtengbc.com:8001'. You may need to add 'code.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 25851|app: 0|req: 30/147] 47.116.20.119 () {34 vars in 631 bytes} [Sun Mar  1 16:58:47 2020] GET /phpmyadmin/ => generated 54946 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25852|app: 0|req: 30/148] 47.116.20.70 () {34 vars in 598 bytes} [Sun Mar  1 18:15:40 2020] GET / => generated 54661 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /explicit_not_exist_path
+[pid: 25853|app: 0|req: 30/149] 47.116.20.70 () {34 vars in 644 bytes} [Sun Mar  1 18:15:41 2020] GET /explicit_not_exist_path => generated 54937 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /index.html
+[pid: 25854|app: 0|req: 30/150] 47.116.20.70 () {34 vars in 617 bytes} [Sun Mar  1 18:15:41 2020] GET /index.html => generated 54780 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /index.php
+[pid: 25850|app: 0|req: 31/151] 47.116.20.70 () {34 vars in 615 bytes} [Sun Mar  1 18:15:42 2020] GET /index.php => generated 54768 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /index.jsp
+[pid: 25851|app: 0|req: 31/152] 47.116.20.70 () {34 vars in 616 bytes} [Sun Mar  1 18:15:44 2020] GET /index.jsp => generated 54769 bytes in 58 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 25852|app: 0|req: 31/153] 47.116.20.70 () {34 vars in 610 bytes} [Sun Mar  1 18:15:45 2020] GET /admin/ => generated 54733 bytes in 39 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 25853|app: 0|req: 31/154] 47.116.20.70 () {34 vars in 620 bytes} [Sun Mar  1 18:15:47 2020] GET /favicon.ico => generated 54793 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 25854|app: 0|req: 31/155] 47.116.20.70 () {34 vars in 618 bytes} [Sun Mar  1 18:15:48 2020] GET /robots.txt => generated 54781 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/base.css
+[pid: 25850|app: 0|req: 32/156] 47.116.20.70 () {34 vars in 648 bytes} [Sun Mar  1 18:15:49 2020] GET /static/admin/css/base.css => generated 54961 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/admin/RelatedObjectLookups.js
+[pid: 25851|app: 0|req: 32/157] 47.116.20.70 () {34 vars in 688 bytes} [Sun Mar  1 18:15:50 2020] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 55201 bytes in 43 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/dashboard.css
+[pid: 25852|app: 0|req: 32/158] 47.116.20.70 () {34 vars in 658 bytes} [Sun Mar  1 18:15:52 2020] GET /static/admin/css/dashboard.css => generated 55021 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.gif
+[pid: 25853|app: 0|req: 32/159] 47.116.20.70 () {34 vars in 654 bytes} [Sun Mar  1 18:15:53 2020] GET /static/admin/img/icon-no.gif => generated 54997 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/LICENSE-JQUERY.txt
+[pid: 25854|app: 0|req: 32/160] 47.116.20.70 () {34 vars in 666 bytes} [Sun Mar  1 18:15:54 2020] GET /static/admin/js/LICENSE-JQUERY.txt => generated 55069 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/fonts/Roboto-Light-webfont.woff
+[pid: 25850|app: 0|req: 33/161] 47.116.20.70 () {34 vars in 684 bytes} [Sun Mar  1 18:15:55 2020] GET /static/admin/fonts/Roboto-Light-webfont.woff => generated 55187 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/fonts.css
+[pid: 25851|app: 0|req: 33/162] 47.116.20.70 () {34 vars in 649 bytes} [Sun Mar  1 18:15:57 2020] GET /static/admin/css/fonts.css => generated 54972 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.svg
+[pid: 25852|app: 0|req: 33/163] 47.116.20.70 () {34 vars in 654 bytes} [Sun Mar  1 18:15:58 2020] GET /static/admin/img/icon-no.svg => generated 54997 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /wcm/
+[pid: 25853|app: 0|req: 33/164] 47.116.20.70 () {34 vars in 606 bytes} [Sun Mar  1 18:15:59 2020] GET /wcm/ => generated 54709 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 25854|app: 0|req: 33/165] 47.116.20.70 () {34 vars in 620 bytes} [Sun Mar  1 18:16:00 2020] GET /phpMyAdmin/ => generated 54793 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.cn:8001'. You may need to add 'wikioi.cn' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 25850|app: 0|req: 34/166] 47.116.20.70 () {34 vars in 620 bytes} [Sun Mar  1 18:16:02 2020] GET /phpmyadmin/ => generated 54793 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25851|app: 0|req: 34/167] 47.116.20.247 () {34 vars in 607 bytes} [Sun Mar  1 19:50:15 2020] GET / => generated 54798 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /explicit_not_exist_path
+[pid: 25852|app: 0|req: 34/168] 47.116.20.247 () {34 vars in 653 bytes} [Sun Mar  1 19:50:16 2020] GET /explicit_not_exist_path => generated 55074 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /index.html
+[pid: 25853|app: 0|req: 34/169] 47.116.20.247 () {34 vars in 627 bytes} [Sun Mar  1 19:50:16 2020] GET /index.html => generated 54918 bytes in 48 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /index.php
+[pid: 25854|app: 0|req: 34/170] 47.116.20.247 () {34 vars in 626 bytes} [Sun Mar  1 19:50:17 2020] GET /index.php => generated 54907 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /index.jsp
+[pid: 25850|app: 0|req: 35/171] 47.116.20.247 () {34 vars in 626 bytes} [Sun Mar  1 19:50:19 2020] GET /index.jsp => generated 54907 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 25851|app: 0|req: 35/172] 47.116.20.247 () {34 vars in 620 bytes} [Sun Mar  1 19:50:20 2020] GET /admin/ => generated 54871 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 25852|app: 0|req: 35/173] 47.116.20.247 () {34 vars in 630 bytes} [Sun Mar  1 19:50:22 2020] GET /favicon.ico => generated 54931 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 25853|app: 0|req: 35/174] 47.116.20.247 () {34 vars in 628 bytes} [Sun Mar  1 19:50:23 2020] GET /robots.txt => generated 54919 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/base.css
+[pid: 25854|app: 0|req: 35/175] 47.116.20.247 () {34 vars in 658 bytes} [Sun Mar  1 19:50:24 2020] GET /static/admin/css/base.css => generated 55099 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/admin/RelatedObjectLookups.js
+[pid: 25850|app: 0|req: 36/176] 47.116.20.247 () {34 vars in 698 bytes} [Sun Mar  1 19:50:26 2020] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 55339 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/dashboard.css
+[pid: 25851|app: 0|req: 36/177] 47.116.20.247 () {34 vars in 668 bytes} [Sun Mar  1 19:50:27 2020] GET /static/admin/css/dashboard.css => generated 55159 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.gif
+[pid: 25852|app: 0|req: 36/178] 47.116.20.247 () {34 vars in 664 bytes} [Sun Mar  1 19:50:28 2020] GET /static/admin/img/icon-no.gif => generated 55135 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/LICENSE-JQUERY.txt
+[pid: 25853|app: 0|req: 36/179] 47.116.20.247 () {34 vars in 676 bytes} [Sun Mar  1 19:50:30 2020] GET /static/admin/js/LICENSE-JQUERY.txt => generated 55207 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/fonts/Roboto-Light-webfont.woff
+[pid: 25854|app: 0|req: 36/180] 47.116.20.247 () {34 vars in 696 bytes} [Sun Mar  1 19:50:31 2020] GET /static/admin/fonts/Roboto-Light-webfont.woff => generated 55327 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/fonts.css
+[pid: 25850|app: 0|req: 37/181] 47.116.20.247 () {34 vars in 659 bytes} [Sun Mar  1 19:50:32 2020] GET /static/admin/css/fonts.css => generated 55110 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (2 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.svg
+[pid: 25851|app: 0|req: 37/182] 47.116.20.247 () {34 vars in 664 bytes} [Sun Mar  1 19:50:34 2020] GET /static/admin/img/icon-no.svg => generated 55135 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /wcm/
+[pid: 25852|app: 0|req: 37/183] 47.116.20.247 () {34 vars in 616 bytes} [Sun Mar  1 19:50:35 2020] GET /wcm/ => generated 54847 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 25853|app: 0|req: 37/184] 47.116.20.247 () {34 vars in 630 bytes} [Sun Mar  1 19:50:36 2020] GET /phpMyAdmin/ => generated 54931 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qingtengbc.com:8001'. You may need to add 'www.qingtengbc.com' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 25854|app: 0|req: 37/185] 47.116.20.247 () {34 vars in 630 bytes} [Sun Mar  1 19:50:38 2020] GET /phpmyadmin/ => generated 54931 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25850|app: 0|req: 38/186] 47.116.15.245 () {34 vars in 597 bytes} [Sun Mar  1 20:34:57 2020] GET / => generated 54632 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /explicit_not_exist_path
+[pid: 25851|app: 0|req: 38/187] 47.116.15.245 () {34 vars in 643 bytes} [Sun Mar  1 20:34:57 2020] GET /explicit_not_exist_path => generated 54908 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /index.html
+[pid: 25852|app: 0|req: 38/188] 47.116.15.245 () {34 vars in 617 bytes} [Sun Mar  1 20:34:58 2020] GET /index.html => generated 54752 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /index.php
+[pid: 25853|app: 0|req: 38/189] 47.116.15.245 () {34 vars in 615 bytes} [Sun Mar  1 20:34:59 2020] GET /index.php => generated 54740 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /index.jsp
+[pid: 25854|app: 0|req: 38/190] 47.116.15.245 () {34 vars in 615 bytes} [Sun Mar  1 20:35:00 2020] GET /index.jsp => generated 54740 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 25850|app: 0|req: 39/191] 47.116.15.245 () {34 vars in 608 bytes} [Sun Mar  1 20:35:02 2020] GET /admin/ => generated 54703 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 25851|app: 0|req: 39/192] 47.116.15.245 () {34 vars in 619 bytes} [Sun Mar  1 20:35:03 2020] GET /favicon.ico => generated 54764 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 25852|app: 0|req: 39/193] 47.116.15.245 () {34 vars in 617 bytes} [Sun Mar  1 20:35:05 2020] GET /robots.txt => generated 54752 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/base.css
+[pid: 25853|app: 0|req: 39/194] 47.116.15.245 () {34 vars in 647 bytes} [Sun Mar  1 20:35:06 2020] GET /static/admin/css/base.css => generated 54932 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/admin/RelatedObjectLookups.js
+[pid: 25854|app: 0|req: 39/195] 47.116.15.245 () {34 vars in 687 bytes} [Sun Mar  1 20:35:07 2020] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 55172 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/dashboard.css
+[pid: 25850|app: 0|req: 40/196] 47.116.15.245 () {34 vars in 657 bytes} [Sun Mar  1 20:35:08 2020] GET /static/admin/css/dashboard.css => generated 54992 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.gif
+[pid: 25851|app: 0|req: 40/197] 47.116.15.245 () {34 vars in 653 bytes} [Sun Mar  1 20:35:10 2020] GET /static/admin/img/icon-no.gif => generated 54968 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/LICENSE-JQUERY.txt
+[pid: 25852|app: 0|req: 40/198] 47.116.15.245 () {34 vars in 664 bytes} [Sun Mar  1 20:35:11 2020] GET /static/admin/js/LICENSE-JQUERY.txt => generated 55039 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /static/admin/fonts/Roboto-Light-webfont.woff
+[pid: 25853|app: 0|req: 40/199] 47.116.15.245 () {34 vars in 685 bytes} [Sun Mar  1 20:35:12 2020] GET /static/admin/fonts/Roboto-Light-webfont.woff => generated 55160 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/fonts.css
+[pid: 25854|app: 0|req: 40/200] 47.116.15.245 () {34 vars in 649 bytes} [Sun Mar  1 20:35:13 2020] GET /static/admin/css/fonts.css => generated 54944 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.svg
+[pid: 25850|app: 0|req: 41/201] 47.116.15.245 () {34 vars in 653 bytes} [Sun Mar  1 20:35:15 2020] GET /static/admin/img/icon-no.svg => generated 54968 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (2 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /wcm/
+[pid: 25851|app: 0|req: 41/202] 47.116.15.245 () {34 vars in 605 bytes} [Sun Mar  1 20:35:16 2020] GET /wcm/ => generated 54680 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 25852|app: 0|req: 41/203] 47.116.15.245 () {34 vars in 619 bytes} [Sun Mar  1 20:35:17 2020] GET /phpMyAdmin/ => generated 54764 bytes in 45 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'noi.fun:8001'. You may need to add 'noi.fun' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 25853|app: 0|req: 41/204] 47.116.15.245 () {34 vars in 619 bytes} [Sun Mar  1 20:35:19 2020] GET /phpmyadmin/ => generated 54764 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 41/205] 47.100.104.184 () {34 vars in 440 bytes} [Sun Mar  1 20:41:46 2020] GET / => generated 11724 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 42/206] 47.92.126.167 () {34 vars in 435 bytes} [Sun Mar  1 20:43:30 2020] GET / => generated 11724 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25851|app: 0|req: 42/207] 47.116.21.186 () {34 vars in 603 bytes} [Sun Mar  1 20:52:28 2020] GET / => generated 54724 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /explicit_not_exist_path
+[pid: 25852|app: 0|req: 42/208] 47.116.21.186 () {34 vars in 649 bytes} [Sun Mar  1 20:52:28 2020] GET /explicit_not_exist_path => generated 55000 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /index.html
+[pid: 25853|app: 0|req: 42/209] 47.116.21.186 () {34 vars in 623 bytes} [Sun Mar  1 20:52:29 2020] GET /index.html => generated 54844 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /index.php
+[pid: 25854|app: 0|req: 42/210] 47.116.21.186 () {34 vars in 621 bytes} [Sun Mar  1 20:52:30 2020] GET /index.php => generated 54832 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /index.jsp
+[pid: 25850|app: 0|req: 43/211] 47.116.21.186 () {34 vars in 621 bytes} [Sun Mar  1 20:52:31 2020] GET /index.jsp => generated 54832 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 25851|app: 0|req: 43/212] 47.116.21.186 () {34 vars in 615 bytes} [Sun Mar  1 20:52:33 2020] GET /admin/ => generated 54796 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 25852|app: 0|req: 43/213] 47.116.21.186 () {34 vars in 625 bytes} [Sun Mar  1 20:52:34 2020] GET /favicon.ico => generated 54856 bytes in 38 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 25853|app: 0|req: 43/214] 47.116.21.186 () {34 vars in 623 bytes} [Sun Mar  1 20:52:36 2020] GET /robots.txt => generated 54844 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/base.css
+[pid: 25854|app: 0|req: 43/215] 47.116.21.186 () {34 vars in 653 bytes} [Sun Mar  1 20:52:37 2020] GET /static/admin/css/base.css => generated 55024 bytes in 47 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/admin/RelatedObjectLookups.js
+[pid: 25850|app: 0|req: 44/216] 47.116.21.186 () {34 vars in 693 bytes} [Sun Mar  1 20:52:38 2020] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 55264 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/dashboard.css
+[pid: 25851|app: 0|req: 44/217] 47.116.21.186 () {34 vars in 663 bytes} [Sun Mar  1 20:52:40 2020] GET /static/admin/css/dashboard.css => generated 55084 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.gif
+[pid: 25852|app: 0|req: 44/218] 47.116.21.186 () {34 vars in 658 bytes} [Sun Mar  1 20:52:41 2020] GET /static/admin/img/icon-no.gif => generated 55059 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/LICENSE-JQUERY.txt
+[pid: 25853|app: 0|req: 44/219] 47.116.21.186 () {34 vars in 671 bytes} [Sun Mar  1 20:52:42 2020] GET /static/admin/js/LICENSE-JQUERY.txt => generated 55132 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/fonts/Roboto-Light-webfont.woff
+[pid: 25854|app: 0|req: 44/220] 47.116.21.186 () {34 vars in 691 bytes} [Sun Mar  1 20:52:44 2020] GET /static/admin/fonts/Roboto-Light-webfont.woff => generated 55252 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/fonts.css
+[pid: 25850|app: 0|req: 45/221] 47.116.21.186 () {34 vars in 655 bytes} [Sun Mar  1 20:52:45 2020] GET /static/admin/css/fonts.css => generated 55036 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.svg
+[pid: 25851|app: 0|req: 45/222] 47.116.21.186 () {34 vars in 659 bytes} [Sun Mar  1 20:52:46 2020] GET /static/admin/img/icon-no.svg => generated 55060 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /wcm/
+[pid: 25852|app: 0|req: 45/223] 47.116.21.186 () {34 vars in 611 bytes} [Sun Mar  1 20:52:48 2020] GET /wcm/ => generated 54772 bytes in 52 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 25853|app: 0|req: 45/224] 47.116.21.186 () {34 vars in 625 bytes} [Sun Mar  1 20:52:49 2020] GET /phpMyAdmin/ => generated 54856 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'qingtengbc.cn:8001'. You may need to add 'qingtengbc.cn' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 25854|app: 0|req: 45/225] 47.116.21.186 () {34 vars in 625 bytes} [Sun Mar  1 20:52:50 2020] GET /phpmyadmin/ => generated 54856 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25850|app: 0|req: 46/226] 47.116.17.212 () {34 vars in 600 bytes} [Sun Mar  1 22:23:40 2020] GET / => generated 54679 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /explicit_not_exist_path
+[pid: 25851|app: 0|req: 46/227] 47.116.17.212 () {34 vars in 646 bytes} [Sun Mar  1 22:23:40 2020] GET /explicit_not_exist_path => generated 54955 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /index.html
+[pid: 25852|app: 0|req: 46/228] 47.116.17.212 () {34 vars in 620 bytes} [Sun Mar  1 22:23:40 2020] GET /index.html => generated 54799 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /index.php
+[pid: 25853|app: 0|req: 46/229] 47.116.17.212 () {34 vars in 618 bytes} [Sun Mar  1 22:23:41 2020] GET /index.php => generated 54787 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /index.jsp
+[pid: 25854|app: 0|req: 46/230] 47.116.17.212 () {34 vars in 618 bytes} [Sun Mar  1 22:23:43 2020] GET /index.jsp => generated 54787 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 25850|app: 0|req: 47/231] 47.116.17.212 () {34 vars in 611 bytes} [Sun Mar  1 22:23:44 2020] GET /admin/ => generated 54750 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 25851|app: 0|req: 47/232] 47.116.17.212 () {34 vars in 622 bytes} [Sun Mar  1 22:23:46 2020] GET /favicon.ico => generated 54811 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 25852|app: 0|req: 47/233] 47.116.17.212 () {34 vars in 620 bytes} [Sun Mar  1 22:23:47 2020] GET /robots.txt => generated 54799 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/base.css
+[pid: 25853|app: 0|req: 47/234] 47.116.17.212 () {34 vars in 650 bytes} [Sun Mar  1 22:23:49 2020] GET /static/admin/css/base.css => generated 54979 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/admin/RelatedObjectLookups.js
+[pid: 25854|app: 0|req: 47/235] 47.116.17.212 () {34 vars in 690 bytes} [Sun Mar  1 22:23:50 2020] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 55219 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/dashboard.css
+[pid: 25850|app: 0|req: 48/236] 47.116.17.212 () {34 vars in 660 bytes} [Sun Mar  1 22:23:51 2020] GET /static/admin/css/dashboard.css => generated 55039 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.gif
+[pid: 25851|app: 0|req: 48/237] 47.116.17.212 () {34 vars in 655 bytes} [Sun Mar  1 22:23:53 2020] GET /static/admin/img/icon-no.gif => generated 55014 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /static/admin/js/LICENSE-JQUERY.txt
+[pid: 25852|app: 0|req: 48/238] 47.116.17.212 () {34 vars in 668 bytes} [Sun Mar  1 22:23:54 2020] GET /static/admin/js/LICENSE-JQUERY.txt => generated 55087 bytes in 38 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /static/admin/fonts/Roboto-Light-webfont.woff
+[pid: 25853|app: 0|req: 48/239] 47.116.17.212 () {34 vars in 688 bytes} [Sun Mar  1 22:23:56 2020] GET /static/admin/fonts/Roboto-Light-webfont.woff => generated 55207 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /static/admin/css/fonts.css
+[pid: 25854|app: 0|req: 48/240] 47.116.17.212 () {34 vars in 652 bytes} [Sun Mar  1 22:23:58 2020] GET /static/admin/css/fonts.css => generated 54991 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /static/admin/img/icon-no.svg
+[pid: 25850|app: 0|req: 49/241] 47.116.17.212 () {34 vars in 656 bytes} [Sun Mar  1 22:23:59 2020] GET /static/admin/img/icon-no.svg => generated 55015 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /wcm/
+[pid: 25851|app: 0|req: 49/242] 47.116.17.212 () {34 vars in 608 bytes} [Sun Mar  1 22:24:00 2020] GET /wcm/ => generated 54727 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 25852|app: 0|req: 49/243] 47.116.17.212 () {34 vars in 622 bytes} [Sun Mar  1 22:24:02 2020] GET /phpMyAdmin/ => generated 54811 bytes in 53 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'wikioi.org:8001'. You may need to add 'wikioi.org' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 25853|app: 0|req: 49/244] 47.116.17.212 () {34 vars in 622 bytes} [Sun Mar  1 22:24:03 2020] GET /phpmyadmin/ => generated 54811 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 25854|app: 0|req: 49/245] 39.100.106.48 () {40 vars in 658 bytes} [Sun Mar  1 23:24:58 2020] GET / => generated 11724 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25850|app: 0|req: 50/246] 39.100.106.48 () {40 vars in 658 bytes} [Mon Mar  2 01:09:50 2020] GET / => generated 11724 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25851|app: 0|req: 50/247] 139.162.79.87 () {30 vars in 348 bytes} [Mon Mar  2 06:56:12 2020] GET / => generated 11724 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25852|app: 0|req: 50/248] 47.92.102.179 () {34 vars in 435 bytes} [Mon Mar  2 20:41:13 2020] GET / => generated 11724 bytes in 90 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 25853|app: 0|req: 50/249] 47.92.107.192 () {34 vars in 439 bytes} [Mon Mar  2 20:42:45 2020] GET / => generated 11724 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'iZm5ed3q69eh2zsije33m9Z:8001'. You may need to add 'izm5ed3q69eh2zsije33m9z' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 25854|app: 0|req: 50/250] 83.97.20.49 () {22 vars in 232 bytes} [Tue Mar  3 10:26:04 2020] GET / => generated 53855 bytes in 158 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[uwsgi-http key: iZm5ed3q69eh2zsije33m9Z client_addr: 83.97.20.49 client_port: 10984] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+[pid: 25850|app: 0|req: 51/251] 171.13.14.27 () {40 vars in 586 bytes} [Tue Mar  3 13:10:20 2020] GET / => generated 11724 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)

@@ -25,7 +25,7 @@ SECRET_KEY = '-h5**=8=m24+i0#+j@-=y^%!$vv*v3mb!7=op!fo+4k(h2l7+z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['47.105.215.186', 'csp-js.cn', 'www.csp-js.cn']
 
 
 # Application definition
