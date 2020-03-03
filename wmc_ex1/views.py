@@ -4,6 +4,31 @@ from todolist.models import Todo
 
 def index(request):
     todos = Todo.objects.all()
+    
+    class Article:
+        pass
+
+    article = Article()
+    article.author = 'MengChen Wang'
+    article.title = 'MengChen write an aritle'
+    article.source = 'https://www.baidu.com'
+    article.description = 'xxxxxxxxx'
+
+    articles = [article]
+
+    article = Article()
+    article.author = 'MengChen Wang'
+    article.title = 'MengChen read an aritle'
+    article.source = 'https://www.baidu.com'
+    article.description = 'xxxxxxxxx'
+
+    articles.append(article)
+
+    count = 1
+    for article in articles:
+        article.odd = True if count % 2 == 1 else False
+        count += 1
+
     return render(request, 'index.html', locals())
 def complete(request, id):
     t=Todo.objects.get(id=id)
